@@ -17,7 +17,6 @@ import json
 import os
 import urllib.request
 import urllib.parse
-import html
 from collections import Counter
 from datetime import datetime
 
