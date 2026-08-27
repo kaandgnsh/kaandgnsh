@@ -1,0 +1,31 @@
+name: Snake
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate contribution snake
+        uses: Platane/snk@v3
+        id: snake
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-dark.svg?palette=github-dark&color_snake=#3FB950&color_dots=#161B22,#0D1117,#21262D,#30363D,#3FB950
+
+      - name: Push generated files to the output branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: ./dist
+          force_orphan: true

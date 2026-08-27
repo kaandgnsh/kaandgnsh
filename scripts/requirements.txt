@@ -1,0 +1,3 @@
+# cards.py only uses the Python standard library (urllib, json, html).
+# This file is kept intentionally empty of third-party deps so the
+# workflow doesn't need a pip install step at all — see cards.yml.

@@ -1,0 +1,6 @@
+<svg width="160" height="24" viewBox="0 0 160 24" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="terminal idle cursor">
+  <text x="0" y="17" font-family="SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace" font-size="14" fill="#3FB950">root@kaan:~$</text>
+  <rect x="102" y="4" width="9" height="16" fill="#3FB950">
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
