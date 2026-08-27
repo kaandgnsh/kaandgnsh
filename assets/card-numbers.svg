@@ -1,0 +1,18 @@
+<svg width="320" height="210" viewBox="0 0 320 210" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="account stats">
+<rect x="0.5" y="0.5" width="319" height="209" rx="8" fill="#0D1117" stroke="#30363D"/>
+<rect x="0.5" y="0.5" width="319" height="30" rx="8" fill="#161B22" stroke="#30363D"/>
+<rect x="0.5" y="22" width="319" height="8" fill="#161B22"/>
+<circle cx="20" cy="15.5" r="5" fill="#8B0000"/>
+<circle cx="36" cy="15.5" r="5" fill="#484F58"/>
+<circle cx="52" cy="15.5" r="5" fill="#6E7681"/>
+<text x="160.0" y="19.5" text-anchor="middle" font-family="SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace" font-size="12" fill="#8B949E">~$ stat kaandgnsh</text>
+<text x="24" y="56" font-family="SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace" font-size="13" fill="#3FB950">$ whoami --stats</text>
+<text x="24" y="68" font-family="SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace" font-size="13" fill="#8B949E">public repos</text>
+<text x="296" y="68" text-anchor="end" font-family="SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace" font-size="13" font-weight="700" fill="#E6EDF3">17</text>
+<text x="24" y="96" font-family="SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace" font-size="13" fill="#8B949E">followers</text>
+<text x="296" y="96" text-anchor="end" font-family="SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace" font-size="13" font-weight="700" fill="#E6EDF3">3</text>
+<text x="24" y="124" font-family="SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace" font-size="13" fill="#8B949E">total stars</text>
+<text x="296" y="124" text-anchor="end" font-family="SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace" font-size="13" font-weight="700" fill="#E6EDF3">7</text>
+<line x1="24" y1="146" x2="296" y2="146" stroke="#30363D"/>
+<text x="24" y="170" font-family="SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace" font-size="11" fill="#8B949E">updated automatically via <tspan fill="#3FB950">GitHub Actions</tspan></text>
+</svg>
