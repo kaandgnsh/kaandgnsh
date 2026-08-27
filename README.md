@@ -142,6 +142,15 @@ m-copy/
 
 <br>
 
+<img src="assets/stats.svg" alt="GitHub stats" height="190">
+<img src="assets/languages.svg" alt="Top languages" height="190">
+
+<br><br>
+
+<img src="assets/activity.svg" alt="Contribution activity" width="100%">
+
+<br><br>
+
 <img src="https://streak-stats.demolab.com/?user=kaandgnsh&background=0D1117&border=30363D&stroke=30363D&ring=3FB950&fire=8B0000&currStreakLabel=3FB950&sideLabels=8B949E&currStreakNum=E6EDF3&sideNums=E6EDF3&dates=8B949E&hide_border=false" alt="GitHub streak stats" width="80%">
 
 <br><br>
