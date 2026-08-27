@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/kaandgnsh">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2800&pause=1100&color=3FB950&center=true&vCenter=true&width=600&lines=kaan;software+engineering+%2B+cybersecurity;linux+%C2%B7+networking+%C2%B7+automation;building+%E2%80%A2+breaking+%E2%80%A2+securing" alt="typing banner" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=30&duration=2800&pause=1100&color=3FB950&center=true&vCenter=true&width=700&lines=Kaan+Do%C4%9Fan;software+engineering+%2B+cybersecurity;linux+%C2%B7+networking+%C2%B7+automation;building+%E2%80%A2+breaking+%E2%80%A2+securing" alt="typing banner" />
 </a>
 
 <br>
@@ -97,7 +97,7 @@ TOOLING
 
 <table>
 <tr>
-<td width="50%"><img src="assets/card-hider.svg" width="100%" alt="hider project card"></td>
+<td width="50%"><img src="https://raw.githubusercontent.com/kaandgnsh/kaandgnsh/main/assets/card-hider.svg" width="100%" alt="hider project card"></td>
 <td width="50%"><img src="assets/card-m-finder.svg" width="100%" alt="m-finder project card"></td>
 </tr>
 </table>
@@ -140,16 +140,13 @@ m-copy/
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=kaandgnsh&show_icons=true&hide_border=true&bg_color=0D1117&title_color=3FB950&icon_color=3FB950&text_color=8B949E&border_color=30363D" alt="GitHub stats" height="165">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaandgnsh&layout=compact&hide_border=true&bg_color=0D1117&title_color=3FB950&text_color=8B949E&border_color=30363D" alt="top languages" height="165">
-
 <br>
 
 <img src="https://streak-stats.demolab.com/?user=kaandgnsh&background=0D1117&border=30363D&stroke=30363D&ring=3FB950&fire=8B0000&currStreakLabel=3FB950&sideLabels=8B949E&currStreakNum=E6EDF3&sideNums=E6EDF3&dates=8B949E&hide_border=false" alt="GitHub streak stats" width="80%">
 
 <br><br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=kaandgnsh&bg_color=0D1117&color=3FB950&line=3FB950&point=E6EDF3&area=true&hide_border=true" alt="contribution activity graph" width="100%">
+
 
 <br><br>
 
