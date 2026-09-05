@@ -8,6 +8,8 @@
 
 <a href="https://instagram.com/kaandgn.sh"><img src="https://img.shields.io/badge/Instagram-0D1117?style=for-the-badge&logo=instagram&logoColor=8B949E" alt="Instagram"></a>
 <a href="https://github.com/kaandgnsh"><img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=8B949E" alt="GitHub"></a>
+<a href="https://www.linkedin.com/in/kaan-doğan-911663280"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=8B949E" alt="LinkedIn"></a>
+
 
 <img src="https://komarev.com/ghpvc/?username=kaandgnsh&style=flat&color=3fb950&label=profile+views" alt="profile views">
 
