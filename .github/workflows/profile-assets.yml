@@ -1,0 +1,57 @@
+name: Profile assets
+
+# Builds the live telemetry/streak cards and the contribution snake, then
+# publishes them to the `output` branch that README.md links to.
+on:
+  schedule:
+    - cron: "17 3 * * *"   # daily, 06:17 Türkiye time
+  workflow_dispatch:        # run manually from the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - scripts/**
+      - assets/fonts/**
+      - .github/workflows/profile-assets.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install font tooling
+        run: python -m pip install --quiet "fonttools>=4.40"
+
+      - name: Generate telemetry cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_cards.py --user "${{ github.repository_owner }}" --out dist
+
+      - name: Generate contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-dark.svg?color_snake=#22c55e&color_dots=#11161a,#0d3b22,#166534,#16a34a,#22c55e
+            dist/snake-light.svg?color_snake=#15803d&color_dots=#ebedf0,#bbf7d0,#4ade80,#16a34a,#14532d
+
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+          jekyll: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
